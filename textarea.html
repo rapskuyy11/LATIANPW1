@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir</title>
+</head>
+<body>
+    <form action="proses.php" method="post">
+        Nomor Pokok Mahasiswa <br>
+        <input type="text" name="npm"> <br><br>
+        Nama <br>
+        <input type="text" name="nama"> <br><br>
+        Tanggal Lahir <br>
+        <input type="date" name="tanggal_lahir"> <br><br>
+        Kota Lahir <br>
+        <select name="kota_lahir">
+            <option value="1">Palembang</option>
+            <option value="2">Banyuasin</option>
+            <option value="3">Musi Banyuasin</option>
+        </select> <br><br>
+        Jenis Kelamin <br>
+        <input type="radio" name="jk" value="L"> Laki-laki 
+        <input type="radio" name="jk" value="P"> Perempuan <br><br>
+        Alamat <br>
+        <textarea name="alamat" cols="30" rows="3"></textarea> <br><br>
+        Informasi kampus MDP didapat dari <br>
+        <input type="checkbox" name="ref1" value="Keluarga"> Keluarga <br>
+        <input type="checkbox" name="ref2" value="Teman"> Teman <br>
+        <input type="checkbox" name="ref3" value="Tv"> TV <br>
+        <input type="checkbox" name="ref4" value="SocialMedia"> Social Media <br><br>
+        Password <br>
+        <input type="password" name="password" > <br><br>
+        Foto <br>
+        <input type="file" name="foto"> <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
